@@ -1,22 +1,22 @@
 class GenresController < ApplicationController
 
-  def index 
-    @genres = Genre.all 
-  end 
+  def index
+    @genres = Genre.all
+  end
 
-  def new 
-    @genre = Genre.new 
-  end 
+  def new
+    @genre = Genre.new
+  end
 
-  def create 
+  def create
 
-  end 
+  end
 
-  def edit 
+  def edit
     @genre = Genre.find(params[:id])
-  end 
+  end
 
-  def update 
+  def update
 
-  end 
+  end
 end
