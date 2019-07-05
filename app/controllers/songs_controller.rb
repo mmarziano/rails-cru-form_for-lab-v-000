@@ -4,21 +4,21 @@ class SongsController < ApplicationController
     @songs = Song.all
   end
 
-  def new 
+  def new
     @song = Song.new
-  end 
+  end
 
-  def edit 
+  def edit
     @song = Song.find(params[:id])
-  end 
+  end
 
-  def create 
+  def create
 
-  end 
+  end
 
-  def update 
+  def update
 
-  end 
+  end
 
-  
+
 end
